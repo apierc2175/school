@@ -1,0 +1,130 @@
+/*** sectioning elements ***/
+
+body {
+
+}
+
+header {
+
+}
+
+main {
+
+}
+
+footer {
+
+}
+
+nav {
+
+}
+
+section {
+
+}
+
+aside {
+
+}
+
+
+
+
+/**** content styles ***/
+
+h1 {
+  text-align: right;
+  font-size: 42px;
+}
+
+h2 {
+  text-align: right;
+  font-size: 22px;
+}
+
+h3 {
+
+}
+
+h4 {
+
+}
+
+h5 {
+
+}
+
+h6 {
+
+}
+
+p.link {
+  display: inline-block;
+}
+
+
+
+blockquote {
+
+}
+
+ol {
+
+}
+
+ul {
+
+}
+
+li {
+
+}
+
+table {
+
+}
+
+tr {
+
+}
+
+th {
+
+}
+
+td {
+
+}
+
+
+/*** image styles ***/
+
+img.mascot{
+  float: left;
+}
+
+.owl-carousel {
+  display: block;
+width: 100%;
+height: auto;
+max-height: 200px;
+}
+
+/*** link styles ***/
+
+a:link {
+
+}
+
+a:visited {
+
+}
+
+a:hover {
+
+}
+
+a:active {
+
+}

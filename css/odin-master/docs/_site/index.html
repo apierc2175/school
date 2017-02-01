@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+  <head>
+  <!-- metadata -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+">
+
+  <!-- page title -->
+  <title>Odin - About</title>
+
+  <!-- favicons -->
+  <link rel="icon" href="/img/valknut.png">
+
+  <!-- styles -->
+  <link rel="stylesheet" href="/css/odin-0.9.2.css">
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="stylesheet" href="/css/custom.css">
+  <link rel="stylesheet" href="/css/font-awesome.min.css">
+</head>
+
+
+  <body>
+
+      <header>
+  <div class="container-xl">
+    <nav class="navbar navbar-slideout-sm">
+      <a class="navbar-brand" href="/">Odin</a>
+      <button class="menu-toggle" aria-label="Toggle navigation">&#9776;</button>
+
+      <div class="navbar-menu">
+        <button class="menu-dismiss" aria-label="Dismiss navigation">&times;</button>
+
+        <ul>
+          <li><a href="/">About</a></li>
+          <li><a href="/download">Download</a></li>
+          <li><a href="/grid/">Docs</a></li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+
+</header>
+
+
+      <main>
+        <div class="container-xl">
+          <div class="row">
+            <div class="col-xs-12">
+              <h1>About</h1>
+            </div>
+          </div>
+
+          <div class="row reverse">
+            
+              <div class="col-xs-12">
+                <img class="right rounded" src="img/odin-square.jpg" alt="Picture of Odin">
+
+<p>Odin was built with the intention of getting some insight into how some of the major grid frameworks (Bootstrap, Skeleton, Materialize, Pure, and so on) are built. I learned quite a bit creating Odin, and I hope it is also useful for other new web developers looking to get a feel for how grid-based layouts are made.</p>
+
+<p>Check out the source on GitHub. Hopefully, I've organized and commented it well enough to be educational. I also hope that the somewhat simplified markup and less full-featured framework will provide new developers a nice introduction into reading technical documentation. The documentation is modeled after (and sometimes almost copied from) other major frameworks.</p>
+
+<p>Odin is based entirely on flexbox and there are no browser prefixes or CSS 'hacks' such as clearfix used. Also, no effort has been made to ensure backwards-compatiblity with older browsers. <em>This is intentional</em>. I want the source code to illustrate major concepts behind CSS layout without getting lost among browser-specific workarounds. It works pretty darn well with Chrome, has a bug or two in Firefox, and is a bit of a mess in anything other than the absolute latest version of IE.</p>
+
+<p>Be aware that <code>border-box</code> is the default <code>box-sizing</code> for all elements. If custom styling requires <code>content-box</code>, then you'll need to override this for those elements.</p>
+
+<p>Many components associated with other frameworks such as carousels, cards, collapsible menus, etc. are not included. Perhaps at some point, more CSS modules will be added to implement extra features. Or maybe not. If extra functionality is needed, there are plenty of third-party CSS/JS options out there that should be pretty easy to integrate into this framework.</p>
+
+<p>Given the limitations, should you use this for a commercial website? Probably not. Still, I think that the skills and concepts learned using Odin will be transferable once you are ready to use production-ready frameworks, and you might even have some fun making something cool along the way.</p>
+
+<p>So why is it called Odin? The framework is based on 12 columns, so I looked at the Wikipedia article for <a href="https://en.wikipedia.org/wiki/12_(number)">12</a> and saw the entry for <a href="https://en.wikipedia.org/wiki/Odin">Odin</a>. He seems like a pretty cool guy to name a framework after. Plus he has a pretty epic beard. So here we are.</p>
+
+<p>The next page contains download links and instructions for <a href="/download">getting started</a>.</p>
+
+              </div>
+            
+          </div>
+        </div>
+      </main>
+
+
+      <footer>
+
+  <div class="container-xl">
+    <ul class="inline">
+      <li><a href="https://github.com/joncoop/odin">GitHub</a> </li>
+      <li><a href="/">About</a></li>
+      <li><a href="/download">Download</a></li>
+      <li><a href="/grid">Docs</a></li>
+      <!--<li><a href="#">Contribute</a></li>-->
+    </ul>
+
+    <p class="light">Designed and built by <a href="https://github.com/joncoop">joncoop</a>. He hopes someone learns something cool using this.<br>
+    Currently v0.9.2. Code licensed by <a href="https://github.com/joncoop/odin/blob/master/LICENSE.md">MIT</a>, docs by <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>.</p>
+  </div>
+
+</footer>
+
+
+    <script src="https://code.jquery.com/jquery-2.2.4.js"></script>
+    <script src="/js/odin-0.8.0.js"></script>
+
+  </body>
+
+</html>

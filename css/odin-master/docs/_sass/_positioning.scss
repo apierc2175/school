@@ -1,0 +1,118 @@
+/* positioning helper classes
+ * (Keep these last in CSS to avoid precedence issues.)
+ */
+
+.center-vertical,
+.center-horizontal,
+.push-left,
+.push-right {
+  display: flex;
+}
+
+.center-vertical {
+  align-items: center;
+}
+
+.center-horizontal {
+  justify-content: center;
+}
+
+.push-left {
+  justify-content: flex-start;
+}
+
+.push-right {
+  justify-content: flex-end;
+}
+
+.upper-left,
+.upper-right,
+.lower-right,
+.lower-left {
+  position: absolute;
+}
+
+.upper-left,
+.gutter-default .upper-left {
+  top: $spacing-unit / 2;
+  left: $spacing-unit / 2;
+}
+
+.gutter-double .upper-left {
+  top: $spacing-unit;
+  left: $spacing-unit;
+}
+
+.gutter-none .upper-left {
+  top: 0;
+  left: 0;
+}
+
+.upper-right,
+.gutter-default .upper-right {
+  top: $spacing-unit / 2;
+  right: $spacing-unit / 2;
+}
+
+.gutter-double .upper-right {
+  top: $spacing-unit;
+  right: $spacing-unit;
+}
+
+.gutter-none .upper-right {
+  top: 0;
+  right: 0;
+}
+
+.lower-right,
+.gutter-default .lower-right {
+  bottom: $spacing-unit / 2;
+  right: $spacing-unit / 2;
+}
+
+.gutter-double .lower-right {
+  bottom: $spacing-unit;
+  right: $spacing-unit;
+}
+
+.gutter-none .lower-right {
+  bottom: 0;
+  right: 0;
+}
+
+.lower-left,
+.gutter-default .lower-left {
+  bottom: $spacing-unit / 2;
+  left: $spacing-unit / 2;
+}
+
+.gutter-double .lower-left {
+  bottom: $spacing-unit;
+  left: $spacing-unit;
+}
+
+.gutter-none .lower-left {
+  bottom: 0;
+  left: 0;
+}
+
+.right {
+  float: right;
+  margin-left: 1.2rem;
+  margin-bottom: 1.2rem;
+}
+
+.left {
+  float: left;
+  margin-right: 1.2rem;
+  margin-bottom: 1.2rem;
+}
+
+.clear {
+  clear: both;
+}
+
+.center {
+  display: block;
+  margin: 0 auto;
+}

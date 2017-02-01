@@ -1,0 +1,66 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+
+
+// Typography
+$base-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+$base-font-size:   18px;
+$base-font-weight: 400;
+$base-line-height: 1.5;
+$semi-bold: 500;
+$small-text: 0.85rem;
+
+// Grid
+$spacing-unit:     4/3 * $base-font-size;
+
+
+// Colors
+$brand-color:      #5be;
+$accent-color-1:   #abc;
+$accent-color-2:   #def;
+
+$text-color:       #111;
+$background-color: #fdfdfd;
+
+$black:            #000;
+$white:            #FFF;
+
+$gray-base:        #678;
+$gray-light:       lighten($gray-base, 20%);
+$gray-very-light:  lighten($gray-base, 40%);
+$gray-dark:        darken($gray-base, 20%);
+$gray-very-dark:   darken($gray-base, 40%);
+
+$info-color:       #5be;
+$success-color:    #2c5;
+$warning-color:    #d82;
+$danger-color:     #c00;
+
+$important-color:  #b00;
+$highlight-color:  #ff8;
+
+// Responsive breakpoints
+$sm-min-width:    480px;
+$md-min-width:    720px;
+$lg-min-width:    960px;
+$xl-min-width:    1200px;
+
+
+// Import partials from `sass_dir` (defaults to `_sass`)
+// Be sure that variables is the first import.
+@import
+  "variables",
+  "resets",
+  "grid",
+  "containers",
+  "navbar",
+  "positioning",
+  "responsive",
+  "typography",
+  "images",
+  "tables",
+  "buttons",
+  "forms"
+;

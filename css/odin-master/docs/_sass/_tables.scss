@@ -1,0 +1,224 @@
+/* table styles */
+table.table-basic {
+  border-collapse: collapse;
+  color: $gray-very-dark;
+}
+
+table.table-basic caption {
+  color: $gray-very-dark;
+  font-size: 1.4rem;
+  font-weight: $semi-bold;
+  padding: 0.4rem;
+  text-align: center;
+}
+
+table.table-basic thead {
+
+}
+
+table.table-basic tbody {
+
+}
+
+table.table-basic tfoot {
+  color: $gray-dark;
+  font-size: $small-text;
+  font-style: italic;
+}
+
+table.table-basic tr {
+
+}
+table.table-basic tbody tr {
+    border-bottom: 1px solid $gray-very-light;
+}
+
+table.table-basic td,
+table.table-basic th {
+  padding: 0.4rem 0.8rem;
+}
+
+table.table-basic th {
+  border-bottom: 1px solid $gray-base;
+  border-top: 1px solid $gray-base;
+  color: $gray-dark;
+  font-weight: $semi-bold;
+}
+
+table.table-basic td {
+
+}
+
+/* responsive table based on
+ * http://allthingssmitty.com/2016/10/03/responsive-table-layout/
+ */
+table.table-stack {
+ width: 100%;
+}
+
+table.table-stack thead {
+ border: none;
+ clip: rect(0 0 0 0);
+ height: 1px;
+ margin: -1px;
+ overflow: hidden;
+ padding: 0;
+ position: absolute !important;
+ width: 1px;
+}
+
+table.table-stack tbody tr {
+ border: 1px solid $gray-light;
+ display: block;
+ margin-bottom: 0.4rem;
+ padding: 0.4rem;
+}
+
+table.table-stack td {
+ display: block;
+ text-align: right;
+}
+
+table.table-stack td:before {
+ content: attr(aria-label);
+ float: left;
+ font-weight: $semi-bold;
+ color: $gray-dark;
+}
+
+table.table-stack tfoot td {
+ display: block;
+ text-align: left;
+}
+
+@media (max-width: $xs-max-width) {
+  table.table-stack-xs {
+    width: 100%;
+  }
+
+  table.table-stack-xs thead {
+    border: none;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute !important;
+    width: 1px;
+  }
+
+  table.table-stack-xs tbody tr {
+    border: 1px solid $gray-light;
+    display: block;
+    margin-bottom: 0.4rem;
+    padding: 0.4rem;
+  }
+
+  table.table-stack-xs td {
+    display: block;
+    text-align: right;
+  }
+
+  table.table-stack-xs td:before {
+    content: attr(aria-label);
+    float: left;
+    font-weight: $semi-bold;
+    color: $gray-dark;
+  }
+
+  table.table-stack-xs tfoot td {
+   display: block;
+   text-align: left;
+  }
+}
+
+
+@media (max-width: $sm-max-width) {
+  table.table-stack-sm {
+    width: 100%;
+  }
+
+  table.table-stack-sm thead {
+    border: none;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute !important;
+    width: 1px;
+  }
+
+  table.table-stack-sm tbody tr {
+    border: 1px solid $gray-light;
+    display: block;
+    margin-bottom: 0.4rem;
+    padding: 0.4rem;
+  }
+
+  table.table-stack-sm td {
+    display: block;
+    text-align: right;
+  }
+
+  table.table-stack-sm td:before {
+    content: attr(aria-label);
+    float: left;
+    font-weight: $semi-bold;
+    color: $gray-dark;
+  }
+
+  table.table-stack-sm tfoot td {
+   display: block;
+   text-align: left;
+  }
+}
+
+@media (max-width: $md-max-width) {
+   table.table-stack-md {
+     width: 100%;
+   }
+
+   table.table-stack-md thead {
+     border: none;
+     clip: rect(0 0 0 0);
+     height: 1px;
+     margin: -1px;
+     overflow: hidden;
+     padding: 0;
+     position: absolute !important;
+     width: 1px;
+   }
+
+   table.table-stack-md tbody tr {
+     border: 1px solid $gray-light;
+     display: block;
+     margin-bottom: 0.4rem;
+     padding: 0.4rem;
+   }
+
+   table.table-stack-md td {
+     display: block;
+     text-align: right;
+   }
+
+   table.table-stack-md td:before {
+     content: attr(aria-label);
+     float: left;
+     font-weight: $semi-bold;
+     color: $gray-dark;
+   }
+
+   table.table-stack-md tfoot td {
+    display: block;
+    text-align: left;
+   }
+}
+
+table.shade-even-rows tbody tr:nth-child(even) {
+  background-color: $gray-very-light;
+}
+
+table.shade-odd-rows tbody tr:nth-child(odd) {
+  background-color: $gray-very-light;
+}

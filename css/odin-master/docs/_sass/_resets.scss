@@ -1,0 +1,32 @@
+/* resets */
+
+html, body {
+    box-sizing: border-box;
+    height: 100%;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+    /* technique from https://css-tricks.com/box-sizing/ */
+}
+
+body {
+  background-color: $background-color;
+  margin: 0;
+}
+
+article,
+aside,
+footer,
+header,
+nav,
+section,
+figcaption,
+figure,
+main {
+  display: block;
+}
+
+img {
+  border-style: none;
+}

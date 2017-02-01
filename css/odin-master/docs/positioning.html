@@ -1,0 +1,128 @@
+---
+layout: default
+title: Positioning
+permalink: /positioning/
+---
+
+<h2>Pushing content right and left within a container</h2>
+
+<p>Notice that these positioning classes are applied to the containing columns and not to the centered content.</p>
+
+<div class="row">
+  <div class="col-sm-6">
+    <div class="demo-content push-left">
+      <div class="positioned-demo-content">Content pushed left</div>
+    </div>
+  </div>
+  <div class="col-sm-6">
+    <div class="demo-content push-right">
+      <div class="positioned-demo-content">Content pushed right</div>
+    </div>
+  </div>
+</div>
+
+<pre>
+  <code>
+    &lt;div class="row"&gt;
+      &lt;div class="col-sm-6 <span class="important">push-left</span>"&gt;
+          Content pushed left
+        &lt;/div&gt;
+      &lt;/div&gt;
+
+      &lt;div class="col-sm-6 <span class="important">push-right</span>"&gt;
+        Content pushed right
+      &lt;/div&gt;
+    &lt;/div&gt;
+  </code>
+</pre>
+
+<h2>Centering within a container</h2>
+
+<p>Notice that these positioning classes are applied to the containing columns and not to the centered content.</p>
+
+<div class="row" style="height: 200px;">
+  <div class="col-sm-4">
+    <div class="demo-content center-vertical">
+      <div class="positioned-demo-content">Content centered vertically</div>
+    </div>
+  </div>
+  <div class="col-sm-4">
+    <div class="demo-content center-horizontal">
+      <div class="positioned-demo-content">Content centered horizontally</div>
+    </div>
+  </div>
+  <div class="col-sm-4">
+    <div class="demo-content center-horizontal center-vertical">
+      <div class="positioned-demo-content">Content centered vertically and horizontally</div>
+    </div>
+  </div>
+</div>
+
+<pre>
+  <code>
+    &lt;div class="row"&gt;
+      &lt;div class="col-sm-4 <span class="important">center-vertical</span>"&gt;
+        Content centered vertically
+      &lt;/div&gt;
+
+      &lt;div class="col-sm-4 <span class="important">center-horizontal</span>"&gt;
+        Content centered horizontally
+      &lt;/div&gt;
+
+      &lt;div class="col-sm-4 <span class="important">center-horizontal center-vertical</span>"&gt;
+        Content centered vertically and horizontally
+      &lt;/div&gt;
+    &lt;/div&gt;
+  </code>
+</pre>
+
+<h2>Absolute positioning within a column</h2>
+
+<div class="row gutter-default">
+  <div class="col-sm-12" style="height: 200px;">
+    <div class="upper-left"><div class="positioned-demo-content">upper-left</div></div>
+    <div class="upper-right"><div class="positioned-demo-content">upper-right</div></div>
+    <div class="lower-left"><div class="positioned-demo-content">lower-left</div></div>
+    <div class="lower-right"><div class="positioned-demo-content">lower-right</div></div>
+    <div class="demo-content">Main column content could go here.</div>
+  </div>
+</div>
+
+<pre>
+  <code>
+    &lt;div class="row"&gt;
+      &lt;div class="col-sm-12"&gt;
+        &lt;div class="<span class="important">upper-left</span>"&gt;upper-left&lt;/div&gt;
+        &lt;div class="<span class="important">upper-right</span>"&gt;upper-right&lt;/div&gt;
+        &lt;div class="<span class="important">lower-left</span>"&gt;lower-left&lt;/div&gt;
+        &lt;div class="<span class="important">lower-right</span>"&gt;lower-right&lt;/div&gt;
+
+        Main column content could go here.
+      &lt;/div>
+    &lt;/div>
+  </code>
+</pre>
+
+<h2>Floats</h2>
+
+<img class="left" src="https://dummyimage.com/250x250/bbb/fff" alt="">
+<p>Classes <code class="important">left</code> and <code class="important">right</code> can be applied to images (and other elements) to quicly float them. A <code class="important">clear</code> class is also provided to prevent content from filling in space next to floated elements.</p>
+
+<div class="clear"></div>
+
+<img class="right" src="https://dummyimage.com/250x250/bbb/fff" alt="">
+<p>In this example, an empty div is used to clear the first floated image. This really isn't a great practice. Perhaps the <code>clear</code> class is better applied to sectioning elements.</p>
+
+<div class="clear"></div>
+
+<pre>
+  <code>
+    &lt;img class="<span class="important">left</span>" src="example_image.jpg" alt=""&gt;
+    &lt;p&gt;Classes left and right...&lt;/p&gt;
+
+    &lt;div class="<span class="important">clear</span>">&lt;/div&gt;
+
+    &lt;img class="<span class="important">right</span>" src="example_image.jpg" alt=""&gt;
+    &lt;p&gt;In this example...&lt;/p&gt;
+  </code>
+</pre>
