@@ -60,7 +60,7 @@ h6 {
 }
 
 p.link {
-  display: inline-block;
+
 }
 
 
@@ -104,21 +104,20 @@ img.mascot{
   float: left;
 }
 
-.owl-carousel {
+div.owl-carousel {
   display: block;
-width: 100%;
-height: auto;
-max-height: 200px;
+  width: 100%;
+  max-height: 200px;
 }
 
 /*** link styles ***/
 
 a:link {
-
+  color: #eee;
 }
 
 a:visited {
-
+  color: #eee;
 }
 
 a:hover {
@@ -127,4 +126,13 @@ a:hover {
 
 a:active {
 
+}
+
+
+/*=======================
+Odin Override
+=========================*/
+.navbar {
+  background-color: #b3b2af;
+  width: 100%;
 }
