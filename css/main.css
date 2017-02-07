@@ -34,12 +34,12 @@ aside {
 /**** content styles ***/
 
 h1 {
-  text-align: right;
+  text-align: center;
   font-size: 42px;
 }
 
 h2 {
-  text-align: right;
+  text-align: center;
   font-size: 22px;
 }
 
@@ -101,23 +101,21 @@ td {
 /*** image styles ***/
 
 img.mascot{
-  float: left;
+  float: right;
 }
 
-div.owl-carousel {
-  display: block;
-  width: 100%;
-  max-height: 200px;
+img.center{
+  text-align: center;
 }
 
 /*** link styles ***/
 
 a:link {
-  color: #eee;
+  color: #222;
 }
 
 a:visited {
-  color: #eee;
+  color: #222;
 }
 
 a:hover {
@@ -133,6 +131,14 @@ a:active {
 Odin Override
 =========================*/
 .navbar {
-  background-color: #b3b2af;
+  background-color: lightgray;
+
+}
+
+.owl-carousel{
+  max-width: 100%;
+}
+
+.navbar-menu{
   width: 100%;
 }
