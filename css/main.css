@@ -5,7 +5,7 @@ body {
 }
 
 header {
-  background-color: #74AFAD;
+  background-color: #b8b072;
 }
 
 head {
@@ -42,16 +42,19 @@ h1 {
   font-size: 55px;
   font-family: kanit;
   margin: 0px;
+  color: #2e3a64;
 }
 
 h2 {
   text-align: center;
   font-size: 30px;
   font-family: abel;
+  color: #2e3a64;
 }
 
 h3 {
   text-align: center;
+  color: #2e3a64;
 }
 
 h4 {
@@ -72,7 +75,7 @@ p.link {
 
 p.copyright{
   text-align: center;
-  padding-top: 38%;
+  padding-top: 20px;
 }
 
 
@@ -123,19 +126,19 @@ img.center{
 /*** link styles ***/
 
 a:link {
-  color: #222;
+  color: white;
 }
 
 a:visited {
-  color: #222;
+  color: white;
 }
 
 a:hover {
-
+  color: #b8b072;
 }
 
 a:active {
-
+  color: gray;
 }
 
 .gray{
@@ -147,7 +150,7 @@ a:active {
 Odin Override
 =========================*/
 .navbar {
-  background-color: #8FBC8F;
+  background-color: #2e3a64;
 }
 
 .owl-carousel{
