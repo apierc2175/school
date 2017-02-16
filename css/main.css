@@ -16,10 +16,6 @@ main {
 
 }
 
-img.eagle {
-  text-align: center;
-}
-
 footer {
 
 }
@@ -45,7 +41,7 @@ h1 {
   text-align: center;
   font-size: 55px;
   font-family: kanit;
-  margin: 0px;
+  margin: 20px;
   color: #2e3a64;
 }
 
@@ -100,22 +96,40 @@ li {
 
 }
 
-table {
 
+tr.odd {
+background-color: #b8b072;
 }
 
-tr {
-
+tr.even {
+  background-color: #cccccc;
 }
 
 th {
-
+  background-color: #2e3a64;
+  color: white;
+  text-align: center;
+  font-size: 24px;
+  padding: 4px;
 }
 
 td {
-
+  color: black;
+  padding: 4px;
+  text-align: center;
 }
 
+table {
+border-spacing: 10px;
+margin-left: auto;
+margin-right: auto;
+}
+
+caption {
+  color: #2e3a64;
+  padding: 10px;
+  font-size: 42px;
+}
 
 /*** image styles ***/
 
